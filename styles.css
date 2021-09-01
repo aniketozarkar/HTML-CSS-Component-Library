@@ -38,12 +38,22 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    box-shadow: 2px 2px 2px #4B5563;
+}
+
+.link-primary:hover {
+    box-shadow: 4px 4px 4px #4B5563;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    box-shadow: 2px 2px 2px #4B5563;
+}
+
+.link-secondary:hover {
+    box-shadow: 4px 4px 4px #4B5563;
 }
 
 /** lists **/
@@ -140,4 +150,37 @@ hr {
 
 .footer ul {
         padding-inline-start: 0px;
+}
+
+/** projects **/
+
+.project {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #4B5563;
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.project-image {
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.project:hover {
+    box-shadow: 10px 10px 10px #4B5563;
+}
+
+.project-link {
+    margin-right: 0.5rem;
 }
